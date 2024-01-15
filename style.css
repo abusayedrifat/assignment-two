@@ -28,11 +28,12 @@ gap: 10px;
 font-size: 36px;
 font-weight: 800;
 }
+
 nav{
     background-color: bisque;
     height: 110px;
     width: 100%;
-    padding: 0 120px;
+    padding: 0 60px;
     display: flex;
     justify-content: space-between;
 }
@@ -45,11 +46,25 @@ font-size: 18px;
 font-weight: 400;
     
 }
-nav li a{
+nav ul li a{
     color: #424247;
 font-size: 18px;
 font-weight: 400;
+
+
 }
-.home{
+nav ul li a:active,
+nav ul li a:hover{
     color: #FF5400;
+    font-size: 20px;
+    transition: all .1s ease-in-out;
+}
+nav ul li .home{
+    color: #FF5400;
+}
+
+@media only screen and (max-width:994px) {
+    nav ul{
+        display: none;
+    }
 }
