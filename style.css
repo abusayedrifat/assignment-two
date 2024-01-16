@@ -51,7 +51,7 @@ button {
     padding: 0;
 }
 
-hr {
+.hr{
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
     margin-bottom: 25px;
@@ -472,13 +472,13 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 60%;
+    width: 20%;
 }
 
 
 
 .social-links img {
-    width: 70%;
+    width: 100%;
 }
 
 .hr-line {
