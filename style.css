@@ -600,7 +600,8 @@ small {
     }
 
     .popular-list {
-        padding-right: 25px;
+        margin: 0 auto;
+        padding-left: 20px;
     }
 
     .popular-tour-section img {
