@@ -475,13 +475,10 @@ footer {
     width: 60%;
 }
 
-.social-links a {
-    margin: 0 auto;
-    display: block;
-}
+
 
 .social-links img {
-    width: 30%;
+    width: 70%;
 }
 
 .hr-line {
