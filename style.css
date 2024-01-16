@@ -469,18 +469,19 @@ footer {
 .social-links {
     margin: 50px 0;
     display: flex;
-    justify-content: space-between;
-    width: 30%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
 }
 
 .social-links a {
     margin: 0 auto;
     display: block;
-    width: 30px;
 }
 
 .social-links img {
-    width: 100%;
+    width: 30%;
 }
 
 .hr-line {
@@ -698,6 +699,7 @@ small {
     .social-links {
         width: 60%;
     }
+    
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
