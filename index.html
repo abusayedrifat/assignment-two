@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=z, initial-scale=1.0">
     <title>Jet Travel Point</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://fontawesome.com/icons/bars?f=classic&s=solid"></script>
+    <script src="https://kit.fontawesome.com/d80873d818.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <label class="logo"><img src="Images/Group 40071 (2).png"> Jet <span class="travel-point"> Travel Point </span></label>
+            <div class="logo">
+                <img src="Images/Group 40071 (2).png"> Jet <span class="travel-point"> Travel</span>
+            </div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn"><i class="fa-solid fa-bars"></i></label>
             <ul>
                 <li><a class="home" href="">Home</a></li>
                 <li><a href="">Pacages</a></li>
@@ -21,5 +25,113 @@
             
         </nav>
     </header>
+    <main>
+        <section class="destination-section">
+        <div class="destination-content">
+            <h1 class="destination-title title">Explore Your Travel</h1>
+        <p class="destination-description">Explore Boundless Horizons: Your Gateway to Unforgettable Travel Experiences. Find Your Perfect Journey with Our Jet Travel Point</p>
+        </div>
+        <form action="">
+            <label for=""><input type="text" name="" id="" placeholder="where to go"></label>
+           <label for=""> <select name="" id="dropdown">
+            <option value="">When</option>
+            <option value="1">Weekend</option>
+            <option value="2">Summer vacation</option>
+            <option value="3">Winter vacation</option>
+           </select></label>
+            <label for="">
+                <select id="dropdown">
+                    <option value="">select Type</option>
+                    <option value="1">Luxury Resort</option>
+                    <option value="2">Adventures</option>
+                    <option value="3">Forest</option>
+                    <option value="4">Water Adventure</option>
+                    <option value="5">Beautiful Sea-Beach</option>
+                    <option value="6">Island</option>
+                    
+                    </select>
+            </label>
+           <button><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+        </form>
+        </section>
+        <!-- popular tour section
+         -->
+         <section class="popular-tour-section">
+            <div class="popular-tour-content">
+                <h2 class="popular-title title">Our Popular Tours</h2>
+          <p class="popular-description title-description">
+            Dive into a world of extraordinary experiences with Our Popular Tours. From captivating cultural excursions to thrilling adventures, our curated collection ensures unforgettable moments in every destination. Join us on these sought-after journeys
+            
+          </p>
+          <p >
+            <ul class="popular-list title-description">
+                <li>For the adrenaline seeker, our Adventure Expedition is a must. Navigate challenging terrains, conquer exhilarating trails, and embark on heart-pounding activities.</li>
+                <li>Seek paradise on our Island Paradise Escape tour, where sun-kissed beaches, crystal-clear waters, and exclusive retreats await. </li>
+                <li>Immerse yourself in the vibrant tapestry of cultures with our Cultural Odyssey tour.</li>
+              </ul>
+          </p>
+          <p class="popular-description title-description">
+            Craft unforgettable memories on these thoughtfully designed tours, each promising a unique blend of adventure, culture, and relaxation. Embark on a journey that resonates with your travel aspirations and create lasting moments.
+          </p>
+
+            <button class="btn-primary">Read More
+            </button>
+
+        </div>
+          <img src="Images/Rectangle 4.png" alt="">
+            
+         </section>
+
+         <section class="choose-destination-section">
+        <div class="choose-destination-content">
+            <h2 class="title">Choose Your Destination</h2>
+        <p class="choose-description title-description">
+            Indulge your wanderlust with 'Choose Your Destination.' Dive into a world of possibilities where each destination is a gateway to extraordinary experiences. 
+        </p>
+        </div>
+        <div class="destination-img-container">
+            <div class="row">
+                <div class="img">
+                    <img src="Images/Rectangle 5.png" alt="">
+                    <div class="img-name">
+                        Maldives
+                    </div>
+                </div>
+
+                <div class="img">
+                <img src="Images/Rectangle 8.png" alt="">
+                <div class="img-name">Indonesia</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="img">
+                <img src="Images/Rectangle 6.png" alt="">
+<div class="img-name">Srilanka</div>
+                </div>
+                <div class="img">
+                <img src="Images/Rectangle 7.png" alt="">
+                <div class="img-name">North America</div>
+                </div>
+                <div class="img">
+                <img src="Images/Rectangle 9.png" alt="">
+                <div class="img-name">Kashmir</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="img">
+                <img src="Images/Rectangle 11.png" alt="">
+                <div class="img-name">Bangladesh</div>
+                </div>
+                <div class="img">
+                <img src="Images/Rectangle 10.png" alt="">
+                <div class="img-name">Bandarban</div>
+                </div>
+            </div>
+        </div>
+         </section>
+         <section class="why-chooe-us-section">
+            
+         </section>
+    </main>
 </body>
 </html>
