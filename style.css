@@ -67,6 +67,7 @@ hr {
     align-items: center;
     gap: 10px;
 }
+
 .logo .travel-point {
     color: #FF5400;
     font-size: 36px;
@@ -206,9 +207,11 @@ button {
 .popular-list {
     margin: 35px 0;
 }
-.popular-list{
-    margin-left:35px;
+
+.popular-list {
+    margin-left: 35px;
 }
+
 .popular-list li {
     margin: 16px 0;
 }
@@ -292,7 +295,7 @@ button {
     font-weight: 800;
 }
 
-.choose-box p{
+.choose-box p {
     text-align: left;
     color: #5A5A5D;
     padding: 0 15px 15px 0;
@@ -313,49 +316,61 @@ button {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+
 /* peoples feedback section */
-.peoples-feedback-section{
+.peoples-feedback-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 100px 0;
 }
-.peoples-feedback-section h1{
+
+.peoples-feedback-section h1 {
     font-size: 60px;
     margin: 60px 0 100px 0;
 }
-.feedback-1{
-    display: flex;   
-    gap: 30px; 
+
+.feedback-1 {
+    display: flex;
+    gap: 30px;
     margin-bottom: 40px;
 }
-.feedback-2{
+
+.feedback-2 {
     display: flex;
     flex-direction: row-reverse;
     gap: 30px;
     margin-bottom: 40px;
 }
-.feedback-2 img, .feedback-1 img{
+
+.feedback-2 img,
+.feedback-1 img {
     width: 15%;
 }
-.comment-box{
+
+.comment-box {
     width: 40%;
     box-shadow: 0 3px 10px rgba(96, 103, 110, 0.784);
     border-radius: 10px;
     padding: 10px;
 }
-.comment-box h2, p{
+
+.comment-box h2,
+p {
     text-align: left;
     margin-left: 20px;
 }
-.comment-box h2{
+
+.comment-box h2 {
     margin-top: 10px;
 }
-.comment-box p{
+
+.comment-box p {
     width: 90%;
-    margin:20px 20px;
+    margin: 20px 20px;
 }
+
 /* news letter section style */
 .news-letter-section {
     display: flex;
@@ -407,7 +422,7 @@ button {
 
 .offer-area img {
     width: 100%;
-    
+
 }
 
 .offer-box {
@@ -428,13 +443,15 @@ button {
     font-size: 32px;
     font-weight: 800;
 }
+
 /* footer section */
-footer{
+footer {
     background: rgba(19, 19, 24, 0.05);
-    
+
 
 }
-.footer-content{
+
+.footer-content {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
@@ -442,32 +459,38 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.footer-description p{
-   margin: 0 auto;
+
+.footer-description p {
+    margin: 0 auto;
     width: 70%;
     text-align: center;
 }
-.social-links{
+
+.social-links {
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
-    width:30% ;
+    width: 30%;
 }
-.social-links a{
+
+.social-links a {
     margin: 0 auto;
     display: block;
-    width:30px;
+    width: 30px;
 }
-.social-links img{
+
+.social-links img {
     width: 100%;
 }
-.hr-line{
+
+.hr-line {
     height: 1px;
     width: 75%;
     background-color: rgba(19, 19, 24, 0.10);
     margin-bottom: 50px;
 }
-small{
+
+small {
     margin-bottom: 100px;
     color: #131318;
     font-family: Inter;
@@ -548,7 +571,7 @@ small{
     }
 
     .destination-description,
-   .form-one {
+    .form-one {
         width: 80%;
         margin: 16px 0 25px 0;
         text-align: center;
@@ -577,9 +600,11 @@ small{
         justify-content: center;
         margin: 50px auto;
     }
-    .popular-list{
-        padding-right:25px;
+
+    .popular-list {
+        padding-right: 25px;
     }
+
     .popular-tour-section img {
         height: 335px;
     }
@@ -607,29 +632,35 @@ small{
         width: 100%;
         height: 180px;
     }
-/* why-chooe-us-section */
-.why-choose-destination-content{
+
+    /* why-chooe-us-section */
+    .why-choose-destination-content {
         margin-top: 60px;
 
-}
+    }
 
-/* peoples-feedback-section */
-.peoples-feedback-section h1{
-    font-size: 30px;
-}
-.feedback-1, .feedback-2 , .comment-box{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 8px;
-}
-.feedback-1 img, .feedback-2 img{
-    width: 40%;
-}
+    /* peoples-feedback-section */
+    .peoples-feedback-section h1 {
+        font-size: 30px;
+    }
+
+    .feedback-1,
+    .feedback-2,
+    .comment-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 8px;
+    }
+
+    .feedback-1 img,
+    .feedback-2 img {
+        width: 40%;
+    }
 
 
- /* news latter section style */
+    /* news latter section style */
 
 
     .news-letter-section {
@@ -647,22 +678,26 @@ small{
         width: 100%;
     }
 
-    .offer-area, .offer-area img {
+    .offer-area,
+    .offer-area img {
         margin-top: 16px;
         padding: 0;
         width: 100%;
         height: 300px;
     }
-  .offer-box h1{
-    font-size: 20px;
-  }
-  /* footer styles */
-  nav label.menu-btn i{
-    line-height: 90px;
-  }
-  .social-links{
-    width: 60%;
-  }
+
+    .offer-box h1 {
+        font-size: 20px;
+    }
+
+    /* footer styles */
+    nav label.menu-btn i {
+        line-height: 90px;
+    }
+
+    .social-links {
+        width: 60%;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
