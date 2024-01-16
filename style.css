@@ -23,6 +23,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    margin: 0;
 }
 
 p {
@@ -37,6 +38,7 @@ button {
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
+    cursor: pointer;
 }
 
 .btn-primary {
@@ -164,6 +166,7 @@ main {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    text-align: center;
 }
 
 form {
@@ -224,7 +227,7 @@ button {
 }
 
 .choose-description {
-    width: 56%;
+    width: 60%;
     text-align: center;
     margin: 25px 0 50px 0;
 }
@@ -238,6 +241,7 @@ button {
 
 .row .img {
     position: relative;
+    cursor: pointer;
 }
 
 .img-name {
@@ -288,10 +292,11 @@ button {
     font-weight: 800;
 }
 
-.choose-box p {
+.choose-box p{
     text-align: left;
     color: #5A5A5D;
     padding: 0 15px 15px 0;
+    margin: 0;
 }
 
 .box-1 {
@@ -437,8 +442,10 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.footer-description{
-    width: 60%;
+.footer-description p{
+   margin: 0 auto;
+    width: 70%;
+    text-align: center;
 }
 .social-links{
     margin: 50px 0;
@@ -544,6 +551,7 @@ small{
    .form-one {
         width: 80%;
         margin: 16px 0 25px 0;
+        text-align: center;
     }
 
     input,
